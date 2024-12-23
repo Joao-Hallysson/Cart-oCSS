@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d9ffd3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            display: flex;
+            background-color: #2f4f39;
+            color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 800px;
+            max-width: 100%;
+        }
+
+        .left {
+            background-color: #ffffff;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+        }
+
+        .left img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .left h1 {
+            color: #2f4f39;
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+
+        .left p {
+            color: #2f4f39;
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        .right {
+            padding: 50px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .right h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .info img {
+            width: 40px;
+            height: 40px;
+            margin-right: 15px;
+        }
+
+        .info p {
+            color: #ffffff;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="left">
+            <img src="https://suap.ifce.edu.br/media/alunos/150x200/265460.p1PaWJKqPcsK.jpg" alt="Minha foto">
+            <h1>João Hallysson Alves Da Silva</h1>
+            <p>Biólogo</p>
+        </div>
+        <div class="right">
+            <h2>Entre em contato comigo</h2>
+            <div class="info">
+                <a href="https://twitter.com/@th_dunedain" target="_blank">
+                    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
+                        alt="Twitter">
+                </a>
+                <p>Twitter</p>
+            </div>
+            <div class="info">
+                <a href="https://instagram.com/@th_dunedain_" target="_blank">
+                    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
+                        alt="Instagram">
+                </a>
+                <p>Instagram</p>
+            </div>
+            <div class="info">
+                <p>📧 hallysson.joao09@aluno.ifce.edu.br</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
